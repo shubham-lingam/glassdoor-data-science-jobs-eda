@@ -1,20 +1,18 @@
-# 💼 Glassdoor Data Science Jobs — Exploratory Data Analysis
+# Glassdoor Data Science Jobs — Exploratory Data Analysis
 
----
-
-## 📌 Project Overview
+## Project Overview
 
 The Data Science job market has grown across industries, locations, and company types, creating opportunities for professionals with analytical and technical skills.
 
-This project performs an Exploratory Data Analysis (EDA) of Glassdoor Data Science job listings to understand hiring patterns, salary ranges, company ratings, locations, and industry demand.
+This project presents an Exploratory Data Analysis (EDA) of Glassdoor Data Science job listings to understand hiring patterns, salary ranges, company ratings, locations, and industry demand.
 
-The analysis was developed using **Python, Pandas, NumPy, and Matplotlib** in a Kaggle Notebook.
+The analysis was developed using Python, Pandas, NumPy, and Matplotlib in a Kaggle Notebook.
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
-The objective of this project is to transform Data Science job listing data into meaningful business insights.
+The objective of this project is to transform Data Science job listing data into meaningful analytical insights.
 
 The analysis focuses on:
 
@@ -27,7 +25,7 @@ The analysis focuses on:
 
 ---
 
-## ❓ Business Questions
+## Business Questions
 
 This project answers six key business questions:
 
@@ -40,7 +38,7 @@ This project answers six key business questions:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains **1,000 Data Science job listings** and 14 variables.
 
@@ -57,17 +55,17 @@ The dataset contains **1,000 Data Science job listings** and 14 variables.
 | Headquarters | Company headquarters |
 | Size | Company employee size |
 | Founded | Company founding year |
-| Type of ownership | Company ownership type |
+| Type of Ownership | Company ownership type |
 | Industry | Industry classification |
 | Sector | Business sector |
 | Revenue | Estimated company revenue |
 | Competitors | Listed competitors |
 
-Salary estimates include both **annual and hourly** compensation.
+Salary estimates include both **annual and hourly compensation**.
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The dataset was inspected and cleaned before performing the analysis.
 
@@ -95,9 +93,9 @@ The dataset was inspected and cleaned before performing the analysis.
 
 ---
 
-# 📈 Key Findings
+# Exploratory Data Analysis
 
-## 1️⃣ Most Common Job Titles
+## 1. Most Common Job Titles
 
 **Data Scientist** was by far the most common job title in the dataset.
 
@@ -108,7 +106,7 @@ Other frequently appearing roles included:
 - Data Analyst
 - Senior Data Engineer
 
-### 💡 Business Insight
+### Business Insight
 
 The dominance of Data Scientist listings indicates strong demand for core Data Science positions in the dataset.
 
@@ -116,11 +114,11 @@ For aspiring Data Scientists, developing strong fundamental Data Science skills 
 
 ---
 
-## 2️⃣ Leading Job Locations
+## 2. Leading Job Locations
 
 **San Francisco, CA** had the highest number of Data Science job listings:
 
-> **60 job listings**
+**60 job listings**
 
 The Top 10 locations were:
 
@@ -137,7 +135,7 @@ The Top 10 locations were:
 | Pittsburgh, PA | 13 |
 | Remote | 12 |
 
-### 💡 Business Insight
+### Business Insight
 
 San Francisco and New York were the leading locations for Data Science opportunities in the dataset.
 
@@ -145,11 +143,11 @@ The concentration of opportunities in major business and technology hubs suggest
 
 ---
 
-## 3️⃣ Leading Industries
+## 3. Leading Industries
 
 **Biotech & Pharmaceuticals** had the highest number of Data Science job listings:
 
-> **118 job listings**
+**118 job listings**
 
 The Top 10 industries were:
 
@@ -168,7 +166,7 @@ The Top 10 industries were:
 
 > `-1` represents unavailable industry information and is not an actual industry.
 
-### 💡 Business Insight
+### Business Insight
 
 Data Science opportunities are distributed across several industries, particularly **Biotech & Pharmaceuticals, IT Services, Software, Healthcare, Insurance, and Consulting**.
 
@@ -176,7 +174,7 @@ This highlights the broad applicability of Data Science skills across different 
 
 ---
 
-## 4️⃣ Salary Analysis
+## 4. Salary Analysis
 
 The salary analysis focused on **annual salary listings** to avoid mixing annual and hourly compensation.
 
@@ -184,7 +182,7 @@ The salary analysis focused on **annual salary listings** to avoid mixing annual
 
 | Metric | Value |
 |---|---:|
-| Annual salary listings | **869** |
+| Annual Salary Listings | **869** |
 | Average Minimum Salary | **$82.76K** |
 | Average Maximum Salary | **$121.93K** |
 | Average Salary | **$102.35K** |
@@ -192,17 +190,17 @@ The salary analysis focused on **annual salary listings** to avoid mixing annual
 | Minimum Average Salary | **$56.50K** |
 | Maximum Average Salary | **$184.00K** |
 
-### 💡 Business Insight
+### Business Insight
 
 The average estimated annual salary was approximately:
 
-> **$102.35K**
+**$102.35K**
 
 The salary estimates varied considerably, indicating that compensation can differ based on factors such as job role, location, industry, and company characteristics.
 
 ---
 
-## 5️⃣ Company Ratings
+## 5. Company Ratings
 
 The company rating analysis produced the following results:
 
@@ -214,7 +212,7 @@ The company rating analysis produced the following results:
 | Minimum Rating | **1.50 / 5** |
 | Maximum Rating | **5.00 / 5** |
 
-### 💡 Business Insight
+### Business Insight
 
 Companies with available ratings had an average rating of approximately **3.88/5**, indicating generally positive ratings across the dataset.
 
@@ -222,7 +220,7 @@ However, ratings ranged from **1.5 to 5.0**, showing considerable variation betw
 
 ---
 
-## 6️⃣ Company Rating vs Salary
+## 6. Company Rating vs Salary
 
 The analysis compared company ratings with average salary estimates.
 
@@ -237,7 +235,7 @@ Some examples were:
 | 4.8 | $92.34K |
 | 1.5 | $56.50K |
 
-### 💡 Business Insight
+### Business Insight
 
 The analysis did **not show a consistent relationship between company rating and salary**.
 
@@ -247,19 +245,33 @@ Therefore, company rating alone should not be used as an indicator of salary lev
 
 ---
 
-# 💡 Business Recommendations
+# Key Business Insights
 
-Based on the analysis:
+1. **Data Scientist was the most common job title**, indicating strong demand for core Data Science roles.
 
-### 🎯 1. Focus on Core Data Science Roles
+2. **San Francisco and New York had the highest number of job listings**, highlighting the importance of major technology and business hubs.
+
+3. **Biotech & Pharmaceuticals and IT Services showed strong demand for Data Science professionals**, demonstrating that Data Science opportunities extend across multiple industries.
+
+4. The average estimated annual salary was approximately **$102.35K**, although salary estimates varied considerably.
+
+5. Companies with available ratings had an average rating of **3.88 out of 5**.
+
+6. **Company ratings did not show a consistent relationship with salary**, suggesting that company rating alone is not a reliable indicator of compensation.
+
+---
+
+# Business Recommendations
+
+## 1. Focus on Core Data Science Roles
 
 The strong presence of Data Scientist positions indicates that building strong fundamental Data Science skills can create broader career opportunities.
 
-### 🌍 2. Consider Major Employment Hubs
+## 2. Consider Major Employment Hubs
 
 San Francisco, New York, Cambridge, Chicago, and Boston showed strong demand in this dataset.
 
-### 🏭 3. Explore Multiple Industries
+## 3. Explore Multiple Industries
 
 Data Science opportunities exist across:
 
@@ -272,7 +284,7 @@ Data Science opportunities exist across:
 
 Candidates should avoid limiting their search to a single industry.
 
-### 💰 4. Compare Salary Across Multiple Factors
+## 4. Compare Salary Across Multiple Factors
 
 Salary can vary significantly, so job seekers should compare compensation based on:
 
@@ -282,13 +294,15 @@ Salary can vary significantly, so job seekers should compare compensation based 
 - Company
 - Experience level
 
-### ⭐ 5. Do Not Rely Only on Company Ratings
+## 5. Do Not Rely Only on Company Ratings
 
-Company ratings do not show a consistent relationship with salary. Candidates should consider compensation, career growth, company culture, role responsibilities, and location together.
+Company ratings do not show a consistent relationship with salary.
+
+Candidates should consider compensation, career growth, company culture, role responsibilities, and location together.
 
 ---
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 
 - **Python**
 - **NumPy**
@@ -298,11 +312,11 @@ Company ratings do not show a consistent relationship with salary. Candidates sh
 
 ---
 
-# 📓 Notebook
+# Notebook
 
 The complete analysis is available in:
 
-**`Glassdoor_Data_Science_Jobs_EDA.ipynb`**
+`Glassdoor_Data_Science_Jobs_EDA.ipynb`
 
 The notebook contains:
 
@@ -311,7 +325,7 @@ The notebook contains:
 - Missing-value analysis
 - Salary feature engineering
 - Exploratory data analysis
-- 6 business questions
+- Six business questions
 - Data visualizations
 - Business insights
 - Recommendations
@@ -319,46 +333,52 @@ The notebook contains:
 
 ---
 
-# 📚 References
+# Skills Demonstrated
 
-### Dataset
-
-- Kaggle — **Glassdoor Data Science Jobs Dataset**
-- https://www.kaggle.com/datasets/rkb0023/glassdoor-data-science-jobs
-
-### Documentation
-
-- NumPy Documentation — https://numpy.org/doc/
-- Pandas Documentation — https://pandas.pydata.org/docs/
-- Matplotlib Documentation — https://matplotlib.org/stable/
+`Python` `NumPy` `Pandas` `Matplotlib` `Data Cleaning` `Feature Engineering` `Exploratory Data Analysis` `Data Visualization` `Salary Analysis` `Correlation Analysis` `Business Insights` `Data Storytelling`
 
 ---
 
-## 👤 Author
+# References
 
-**L Shubham**
+## Dataset
 
-Aspiring Data Analyst | Python | SQL | Power BI | Excel | Tableau
+Kaggle — Glassdoor Data Science Jobs Dataset
 
-📍 Pune, Maharashtra, India
+https://www.kaggle.com/datasets/rkb0023/glassdoor-data-science-jobs
 
-### 🔗 Connect With Me
+## Documentation
 
-- **GitHub:** https://github.com/shubham-lingam
-- **LinkedIn:** https://www.linkedin.com/in/shubham-lingam
+NumPy Documentation
+
+https://numpy.org/doc/
+
+Pandas Documentation
+
+https://pandas.pydata.org/docs/
+
+Matplotlib Documentation
+
+https://matplotlib.org/stable/
 
 ---
 
-⭐ **If you found this project useful, consider giving the repository a star!**
+# Repository Structure
 
-Your support motivates me to keep building and sharing Data Analytics projects.
+```text
+glassdoor-data-science-jobs-eda/
+│
+├── Glassdoor_Data_Science_Jobs_EDA.ipynb
+├── README.md
+└── dataset/
+    └── README.md
 
----
+# Author
 
-<p align="center">
-  Built with ❤️ using Python, Pandas, NumPy & Matplotlib
-</p>
+* L Shubham *
 
-<p align="center">
-  © 2026 L Shubham
-</p>
+* Data Analyst | Python | SQL | Power BI | Excel | Tableau | Data Visualization | Business Intelligence *
+
+GitHub: https://github.com/shubham-lingam
+
+LinkedIn: https://www.linkedin.com/in/shubham-lingam
