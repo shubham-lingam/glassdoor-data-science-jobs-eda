@@ -376,9 +376,9 @@ glassdoor-data-science-jobs-eda/
 ---
 # Author
 
-* L Shubham *
+** L Shubham ** 
 
-* Data Analyst | Python | SQL | Power BI | Excel | Tableau | Data Visualization | Business Intelligence *
+# Data Analyst | Python | SQL | Power BI | Excel | Tableau | Data Visualization | Business Intelligence *
 
 GitHub: https://github.com/shubham-lingam
 
